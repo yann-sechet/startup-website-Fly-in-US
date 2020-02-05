@@ -1,0 +1,9 @@
+.banner {
+	background-image: url(../../images/basketball.jpeg);
+	color: white;
+	padding: 150px;
+	background-size: cover;	
+	background-position: center;
+	width: 1130px;
+	height:480px;
+}

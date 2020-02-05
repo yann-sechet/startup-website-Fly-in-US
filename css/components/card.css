@@ -1,0 +1,31 @@
+.cards {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+
+
+.card {
+	padding: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	box-shadow: 50px 50px 50px 1px rgba(10,10,10,0.4);
+	border-radius: 8px;
+	width: 500px;
+	margin: 50px 100px 50px 100px;
+	flex-basis: 250px;
+}
+
+.card image {
+	width: 120px;
+	border-radius: 8px;
+}
+
+.card h3 {
+	font-family: 'Bebas Neue', cursive;
+	font-size: 30px;
+	font-weight: bold;
+	flex-grow: 1;
+	padding-left: 20px;
+}
